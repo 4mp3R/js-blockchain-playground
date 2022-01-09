@@ -1,0 +1,25 @@
+{
+  "name": "js-blockchain-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src",
+    "keypair:generate": "node ./scripts/keygenerator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4mp3R/js-blockchain-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4mp3R/js-blockchain-playground/issues"
+  },
+  "homepage": "https://github.com/4mp3R/js-blockchain-playground#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4"
+  }
+}
